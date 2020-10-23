@@ -1,4 +1,3 @@
-coverage
-codecov
-MonthDelta==1.0b0
-enum23; python_version < '3.4'
+-i https://pypi.org/simple
+--extra-index-url https://pypi.fury.io/T9j6nuX7inNPGip1D3io/gain-bot/
+-e .[tests]

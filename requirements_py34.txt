@@ -1,3 +1,0 @@
-coverage
-codecov
-MonthDelta==1.0b0

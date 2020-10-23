@@ -1,0 +1,4 @@
+[packages]
+iso8601utils = {editable = true, file = "."}
+
+[dev-packages]

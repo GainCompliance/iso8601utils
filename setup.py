@@ -1,5 +1,5 @@
 # Always prefer setuptools over distutils
-from setuptools import setup
+from setuptools import setup, find_packages
 
 # To use a consistent encoding
 from codecs import open
@@ -48,7 +48,7 @@ setup(
     ],
     # What does your project relate to?
     keywords="iso8601 time date datetime duration interval",
-    packages=["iso8601utils"],
+    packages=find_packages(),
     # List run-time dependencies here.  These will be installed by pip when
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
